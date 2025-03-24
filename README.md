@@ -55,5 +55,4 @@ copies or substantial portions of the Software.
 ----------
 
 * **Repository Owner**: Varnika Kalani ([@VarnikaKalani](https://github.com/VarnikaKalani))
-* **Email**: [**insert email here if desired**]
 * **Issues & Suggestions**: Please use the GitHub Issues tracker for any repository-related feedback or suggestions.
