@@ -4,27 +4,38 @@
 **Repository Overview**
 ------------------------
 
-This repository contains CSV files and associated analysis related to Amazon shipping analytics. The data and insights provided here are designed to offer a deeper understanding of shipping trends, efficiencies, and potential bottlenecks within the Amazon ecosystem.
+This repository contains a comprehensive dataset and a Tableau workbook for in-depth shipping analytics related to an Amazon-like e-commerce platform. The provided data and visualizations aim to facilitate analysis of shipping trends, customer behavior, and operational efficiencies.
 
 **Contents**
 ------------
 
-* **Shipping Analytics CSV Files**: 
-	+ [**Order_Volumes.csv**](https://github.com/VarnikaKalani/amazon-shipping-analytics/tree/main/Shipping%20Analytics%20csv%20files/Order_Volumes.csv) - Weekly order volume data.
-	+ [**Shipping_Times.csv**](https://github.com/VarnikaKalani/amazon-shipping-analytics/tree/main/Shipping%20Analytics%20csv%20files/Shipping_Times.csv) - Average shipping times by region.
-	+ [**Carrier_Performance.csv**](https://github.com/VarnikaKalani/amazon-shipping-analytics/tree/main/Shipping%20Analytics%20csv%20files/Carrier_Performance.csv) - Quarterly performance metrics of various carriers.
-	+ [**Return_Rates.csv**](https://github.com/VarnikaKalani/amazon-shipping-analytics/tree/main/Shipping%20Analytics%20csv%20files/Return_Rates.csv) - Monthly return rates by product category.
-	+ [**Additional Files...**](https://github.com/VarnikaKalani/amazon-shipping-analytics/tree/main/Shipping%20Analytics%20csv%20files/) - Other relevant shipping analytics data.
+* **Dataset (CSV Files)**:
+	+ **categories.csv**: Product categories
+	+ **customers.csv**: Customer information
+	+ **employee_territories.csv**: Employee territory assignments
+	+ **employees.csv**: Employee database
+	+ **order_details.csv**: Detailed breakdown of orders
+	+ **orders.csv**: Order history
+	+ **products.csv**: Product catalog
+	+ **regions.csv**: Geographic regions
+	+ **shippers.csv**: Shipping provider information
+	+ **suppliers.csv**: Supplier database
+	+ **territories.csv**: Territory definitions
+* **Tableau Workbook**:
+	+ **[Shipping Analytics Workbook]** (Filename not specified - please update with the actual filename) - Interactive visualizations of the dataset
 
 **Usage Guidelines**
 --------------------
 
-1. **Accessing Data**: Simply navigate to the desired CSV file within the `Shipping Analytics csv files` directory and download it for analysis.
-2. **Contribution**: If you have additional insightful data or wish to collaborate on analysis, please submit a pull request or contact the repository owner.
-3. **Analysis Suggestions**:
-	* **Visualize Order Volumes** over time to identify seasonal trends.
-	* **Compare Shipping Times** across different carriers and regions for optimization opportunities.
-	* **Analyze Carrier Performance** to make informed decisions on partnerships.
+1. **Accessing Data**: Download the desired CSV files for analysis or use in your own projects.
+2. **Tableau Workbook**:
+	* Open the workbook in Tableau to explore pre-built visualizations and dashboards.
+	* Use the workbook as a starting point for your own analytics projects.
+3. **Contribution**: If you have additional data or wish to collaborate on analysis, please submit a pull request or contact the repository owner.
+4. **Analysis Suggestions**:
+	* **Customer Segmentation**: Analyze **customers.csv** to identify high-value customer segments.
+	* **Shipping Efficiency**: Use **orders.csv** and **shippers.csv** to evaluate shipping times and costs.
+	* **Product Performance**: Examine **products.csv** and **order_details.csv** to determine top-selling products and categories.
 
 **License**
 -------
